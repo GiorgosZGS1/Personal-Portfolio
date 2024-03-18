@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const montserrat = Roboto_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Giorgos Zagaris | Software Engineer",

@@ -3,18 +3,18 @@ import profileImg from "../public/imges/imgProfile.png"
 
 const Banner = () => {
     return (
-        <div className="wrapper flex flex-col md:flex-row items-center gap-10 ">
+        <div className="wrapper flex flex-col md:flex-row items-center gap-10 border-b-[1px] border-b-gray-500">
             {/* Profile Image */}
-            <div className=" w-44 h-44 rounded-full bg-zinc-900">
-                <Image className="w-full h-full rounded-full border-[2px] border-indigo-700 p-2 object-cover" 
+            <div className=" w-44 h-44 rounded-full bg-gray-900">
+                <Image className="w-full h-full rounded-full border-[1px] border-indigo-700 p-2 object-cover " 
                 src={profileImg} 
                 alt="profileImg"/>
             </div>
             {/* Description */}
-            <div className="w-3/4 flex flex-col items-center md:items-start gap-2">
-                <h1 className="text-5xl text-center font-bold">Giorgos Zagaris</h1>
-                <h3 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">Software Engineer</h3>
-                <p className="text-base tracking-wide text-center md:text-left">Hey, welcome to my website! I am passionate about developing, designing and testing web applications.</p>
+            <div className="w-3/4 flex flex-col items-center md:items-start gap-3">
+                <h1 className="text-3xl md:text-5xl text-center text-gray-400 font-bold">Giorgos Zagaris</h1>
+                <h3 className="text-xl md:text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">software engineer</h3>
+                <p className="text-md  tracking-wider text-center md:text-left">Welcome to my website! I am  passionate about software development and tech. </p>
             </div>
         </div>
     );
