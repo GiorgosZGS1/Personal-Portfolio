@@ -17,7 +17,7 @@ const ProjectCard = ({title, img, link, paragraph}: Props) => {
                     height={350} 
                     src={img} 
                     alt='JetPackGuy' />
-                <p className='absolute hidden group-hover:inline-block bottom-0 w-full py-1 bg-indigo-700 text-white text-center font-semibold'>{title}</p>
+                <p className='absolute md:hidden group-hover:inline-block bottom-0 w-full py-1 bg-indigo-700 text-white text-center font-semibold'>{title}</p>
             </div>
             <p className="py-4 text-md md:text-lg">{paragraph}</p>
         </a>
