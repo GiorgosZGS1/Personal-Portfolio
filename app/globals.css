@@ -8,12 +8,9 @@
     }
 }
 
-#aboutme p { 
-  border-right: 1px solid rgba(107, 114, 128, var(--tw-border-opacity));
-  border-bottom: 1px solid rgba(107, 114, 128, var(--tw-border-opacity));
 
-}
 
 #aboutme span{
   color: rgb(176, 175, 175);
 }
+
