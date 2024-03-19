@@ -5,7 +5,7 @@ import SkillsInput from "./SkillsInput";
 function Skills() {
   return (
     <div>
-        <Title text='.skills' />
+        <Title text='&#46;skills' />
         <div className="flex gap-4 flex-wrap   border-b-slate-700 " id='skills'>
             <SkillsInput
                 title="Javascript"
