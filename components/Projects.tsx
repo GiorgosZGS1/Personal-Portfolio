@@ -18,19 +18,19 @@ const Projects = () => {
             paragraph='Currency Converter is project that I created with HTML,CSS and Javascript to help me with my current job. You can accurately convert any currency you need. I used the ExchangeRate-API to get the data of rates.'
         />
         <ProjectCard 
-            title='weather app.'  
+            title='weather app&#46;'  
             link='https://giorgoszgs1.github.io/WeatherApp/'  
             img={WeatherAppImg.src}
             paragraph='Weather app is a project that I created with HTML,CSS and Javascript. You can search for every place in the world and find about the weather in that place. I used the OpenWeatherMap-API.'
         />
         <ProjectCard 
-            title='jetpackGuy demo.'  
+            title='jetpackGuy demo&#46;'  
             link='https://giorgoszgs1.github.io/JetPack-Guy/'  
             img={JetPackGuyImg.src}
             paragraph='JetpackGuy is a demo project that I created with HMLT5 Canvas and Javascript. I have created a few small games in the past with unity and python and I wanted to try out the HTML5 canvas for the first time. The game is still in progress.'
         />
         <ProjectCard 
-            title='old portfolio.'  
+            title='old portfolio&#46;'  
             link='https://giorgoszgs1.github.io/portfolio/'  
             img={OldPortfolio.src}
             paragraph='This is my old portfolio project that I created with HTML,CSS and Javascript to showcase my skillset.'
